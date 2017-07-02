@@ -2,10 +2,10 @@ package com.yonyou.seckill.dao;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.yonyou.seckill.entity.Successkilled;
+import com.yonyou.seckill.entity.SuccessKilled;
 
 
-public interface SuccesskilledDao {
+public interface SuccessKilledDao {
 
 	/**
 	 * 插入购买明细，可过滤重复
@@ -23,6 +23,6 @@ public interface SuccesskilledDao {
 	 * @param userPhone
 	 * @return
 	 */
-	Successkilled queryByIdWithSeckill(@Param("seckillId") long seckillId, @Param("userPhone") long userPhone);
+	SuccessKilled queryByIdWithSeckill(@Param("seckillId") long seckillId, @Param("userPhone") long userPhone);
 
 }

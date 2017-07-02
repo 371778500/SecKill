@@ -3,7 +3,7 @@ package com.yonyou.seckill.entity;
 import java.util.Date;
 import com.yonyou.seckill.entity.SecKill;;
 
-public class Successkilled {
+public class SuccessKilled {
 
 	private long seckillId;
 
